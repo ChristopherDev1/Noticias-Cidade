@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo {
+   width: 152px;
+   height: 66px;
+   background: url(../imagens/logo.png) no-repeat center;
+   text-indent: -3000px;
+}
+
+/*** Barra de navegação ***/
+
+ul {
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.1em;
+    background: url(../imagens/divisor.png) repeat-y left center;
+    
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    border-radius: 10px;
+    color:#b10333;
+    background-color: #fff;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+    border-radius: 10px;
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+
+/**formatacao conteudo**/
+
+#conteudo {
+    display: flex;
+    background: #fff;
+    margin-top: 60px;
+}
+
+#lateral {
+    width: 24%/**180px**/;
+    
+}
+
+#tres-colunas #primario {
+    width: 36%/**270px**/;
+    margin-left: 22px;
+}
+
+#duas-colunas #primario {
+    width: 74%/**555px**/;
+    margin-left: 15px;
+    
+}
+
+#duas-colunas #primario img {
+    width: 100%;
+}
+
+#duas-colunas #primario hr {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#duas-colunas #primario .menor {
+    width: 80px;
+}
+
+#uma-coluna #primario {
+    width: 100%/**750px**/; 
+}
+
+#secundario {
+    width: 36%/**270px**/;
+    margin-left: 22px;
+}
+
+
+#container-rodape {
+    margin-top: 700px;
+    height: 70px;
+    clear: both;
+    background: #294c71;
+}
+
+#rodape {
+    text-align: center;
+    width: 750px;
+    padding-top: 23px;
+    margin: auto;
+    color: #fff;
+}
+
+.caixa {
+    border-radius: 10px;
+    margin: 10px 0px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+}
+
+/***formatacao menu lateral***/
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+#lateral #email {
+    width: 125px;
+    padding: 5px;
+    border: 2px solid #7e949e;
+    border-radius: 5px;
+}
+
+#lateral .submit {
+    margin-top: 3px;
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/***formatacao conteudo primario***/
+
+#primario h5 {
+    background: #de003e;
+    padding: 5px;
+    width: 188px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#primario img,  /***formatacao as imagens dos conteudos***/
+#secundario img {
+    margin-top: 3px;
+    width: 245px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+#primario a,
+#secundario a {
+    text-decoration: none;
+}
+
+#secundario h5 {
+    background: #de003e;
+    color: #fff;
+    padding: 5px;
+    width: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#conteudo .menor {  /**formatando publicacoes menores inferiores**/
+    width: 80px;
+    float: left;
+    margin-right: 5px;
+}
+
+.caixa-conteudo h3 {
+    color: blue;
+    margin: 3px;
+    color: #3e7ab9;
+    font-size: 1em;
+    
+}
+
+hr {
+    color: #ccc;
+    margin: 5px;
+}
+
